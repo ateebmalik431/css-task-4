@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 4 - Box Model</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>CSS Task 4</h1>
+    <h2>CSS Box Model Demonstration</h2>
+
+    <div class="container">
+
+        <h2>1. Width Examples</h2>
+
+        <h3>Example 1: Content Box</h3>
+        <div class="box1">Width: 150px</div>
+        <p>Total Width = 150 + 40 + 16 = 206px</p>
+
+        <h3>Example 2: Border Box</h3>
+        <div class="box2">Width: 150px</div>
+        <p>Total Width = 150px</p>
+
+        <h3>Example 3: Small Padding and Border</h3>
+        <div class="box3">Width: 150px</div>
+        <p>Total Width = 150 + 16 + 8 = 174px</p>
+
+        <h3>Example 4: Large Padding and Border</h3>
+        <div class="box4">Width: 150px</div>
+        <p>Total Width = 150 + 60 + 24 = 234px</p>
+
+        <hr>
+
+        <h2>2. Height Examples</h2>
+
+        <h3>Example 1: Content Box</h3>
+        <div class="height1">Height: 100px</div>
+        <p>Total Height = 100 + 40 + 16 = 156px</p>
+
+        <h3>Example 2: Border Box</h3>
+        <div class="height2">Height: 100px</div>
+        <p>Total Height = 100px</p>
+
+        <h3>Example 3: Small Padding and Border</h3>
+        <div class="height3">Height: 70px</div>
+        <p>Total Height = 70 + 16 + 8 = 94px</p>
+
+        <h3>Example 4: Large Padding and Border</h3>
+        <div class="height4">Height: 140px</div>
+        <p>Total Height = 140 + 60 + 24 = 224px</p>
+
+        <hr>
+
+        <h2>3. Conclusion</h2>
+
+        <p>
+            The CSS Box Model consists of Content,
+            Padding, Border and Margin.
+        </p>
+
+        <p>
+            Content-box adds padding and border
+            outside the declared width and height.
+        </p>
+
+        <p>
+            Border-box includes padding and border
+            inside the declared width and height.
+        </p>
+
+    </div>
+
+</body>
+</html>
